@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: linear-gradient(45deg, black, crimson);
+    height: 100vh;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border:none;
+    border-radius: 5px;
+    margin: 3px;
+}
+.botao:hover{
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+#resultado{
+    background-color: white;
+    width:207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+.links{
+    padding: 10vh;
+    text-decoration: none;
+    color:white;
+}
+
+.site-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+    border: 10px solid transparent;
+    border-radius: 10px;
+    background-color: black;
+    display: block;
+    text-align: center;
+    width: auto;
+    text-decoration: none;
+    position: fixed;
+    top:3vh;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .site-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: gradient;
+    border: 10px solid transparent;
+    border-radius: 10px;
+    background-color: black;
+    display: block;
+    text-align: center;
+    width: auto;
+    text-decoration: none;
+    position: fixed;
+    top:3vh;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+  }
+
+  #shadowBox {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    border: 3px solid;
+  }
+  
+  .site-title {
+    text-align: center;
+    letter-spacing: 5px;
+    animation: colorRotate 6s linear 0s infinite;
+  }
+  
+  @keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+  }
+
+  p.clicaNoLink{
+    position:fixed;
+    top:15vh;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  
